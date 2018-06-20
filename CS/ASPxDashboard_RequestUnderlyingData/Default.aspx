@@ -18,10 +18,12 @@
             WorkingMode="Viewer" 
             ClientInstanceName="webDashboard"
             Height="850px" Width="600px">
-            <ClientSideEvents DashboardEndUpdate="function(s, e) { loadUnderlyingData(); }"></ClientSideEvents>
+            <ClientSideEvents 
+                DashboardEndUpdate="function(s, e) { loadUnderlyingData(); }">
+            </ClientSideEvents>
         </dx:ASPxDashboard>
     </div>
     </form>
+    <script type="text/javascript" src="<%= Page.ResolveClientUrl("~/Scripts/UnderlyingData.js") %>"></script>
 </body>
 </html>
-<script type="text/javascript" src="<%= Page.ResolveClientUrl("~/Scripts/UnderlyingData.js") %>"></script>
