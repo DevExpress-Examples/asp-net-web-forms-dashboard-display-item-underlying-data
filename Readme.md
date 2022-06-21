@@ -3,16 +3,19 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T518504)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
-
-* [Default.aspx](./CS/ASPxDashboard_RequestUnderlyingData/Default.aspx) (VB: [Default.aspx](./VB/ASPxDashboard_RequestUnderlyingData/Default.aspx))
-* [UnderlyingData.js](./CS/ASPxDashboard_RequestUnderlyingData/Scripts/UnderlyingData.js) (VB: [UnderlyingData.js](./VB/ASPxDashboard_RequestUnderlyingData/Scripts/UnderlyingData.js))
-<!-- default file list end -->
 
 # Dashboard for Web Forms - How to obtain underlying data for the specified dashboard item
 
-The following example shows how to get underlying data for the specified dashboard item. The example uses the [ASPxClientDashboard.RequestUnderlyingData](https://docs.devexpress.com/Dashboard/js-ASPxClientDashboard#js_aspxclientdashboard_requestunderlyingdata_itemname_args_oncompleted_) method and passes the component name of the dashboard item and specific parameters to request data.
+The example shows how to get underlying data for the specified dashboard item. Underlying data is displayed in the `dxDataGrid` widget placed next to the Web Dashboard.
+
+![](dashboard-and-grid.png)
+
+The example uses the [ViewerApiExtension.requestUnderlyingData](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.ViewerApiExtension?p=netframework#js_devexpress_dashboard_viewerapiextension_requestunderlyingdata) method and passes the component name of the dashboard item and specific parameters to request data.
+
+## Files to Look At
+
+* [Default.aspx](./CS/ASPxDashboard_RequestUnderlyingData/Default.aspx) (VB: [Default.aspx](./VB/ASPxDashboard_RequestUnderlyingData/Default.aspx))
+* [UnderlyingData.js](./CS/ASPxDashboard_RequestUnderlyingData/Scripts/UnderlyingData.js) (VB: [UnderlyingData.js](./VB/ASPxDashboard_RequestUnderlyingData/Scripts/UnderlyingData.js))
 
 ## Documentation
 
