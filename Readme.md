@@ -12,7 +12,7 @@ The example shows how to get underlying data for the specified dashboard item. 
 
 The example uses the [ViewerApiExtension.requestUnderlyingData](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.ViewerApiExtension?p=netframework#js_devexpress_dashboard_viewerapiextension_requestunderlyingdata) method and passes the component name of the dashboard item and specific parameters to request data.
 
-## Files to Look At
+## Files to Review
 
 * [Default.aspx](./CS/ASPxDashboard_RequestUnderlyingData/Default.aspx) (VB: [Default.aspx](./VB/ASPxDashboard_RequestUnderlyingData/Default.aspx))
 * [UnderlyingData.js](./CS/ASPxDashboard_RequestUnderlyingData/Scripts/UnderlyingData.js) (VB: [UnderlyingData.js](./VB/ASPxDashboard_RequestUnderlyingData/Scripts/UnderlyingData.js))
